@@ -1,0 +1,6 @@
+# Tested with Python 3.11. Install the appropriate CUDA/CPU PyTorch build first.
+torch==2.8.0
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==25.0.0
+# BigQuant DAI is provided by the authorized platform; it is not a PyPI dependency.

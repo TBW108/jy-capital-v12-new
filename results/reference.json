@@ -1,0 +1,89 @@
+{
+  "sha256": "a62ce8aa470fa4fe12c61ddd45fd952fa31d13251f128aa495a00a43f847b96a",
+  "train": {
+    "start": "2020-01-01",
+    "end": "2024-12-31 23:59:59",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "steps": 4000,
+    "label_table": "cpt_jyc_2026_vwap",
+    "section_grid": [
+      0,
+      30,
+      60,
+      90,
+      120,
+      150,
+      180,
+      210
+    ],
+    "n_days": 1212,
+    "n_labels": 9666243,
+    "ir_penalty": 0.5,
+    "turn_penalty": 0.06,
+    "aux_weight": 0.5
+  },
+  "model_cfg": {
+    "n_ch": 25,
+    "patch": 5,
+    "seg": 30,
+    "n_auc": 10,
+    "d_model": 64,
+    "nhead": 4,
+    "nlayers": 2,
+    "dim_ff": 128,
+    "dropout": 0.1,
+    "hist_days": 20,
+    "hist_fine": 1,
+    "peer": true,
+    "peer_ff": 1,
+    "run": false,
+    "xmean": true,
+    "moe_k": 8,
+    "aux": 1
+  },
+  "n_models": 5,
+  "tensor_elements_per_seed": [
+    244810,
+    244810,
+    244810,
+    244810,
+    244810
+  ],
+  "source_hashes": {
+    "train.py": "7cc63a5febfdb3e2c9e772ae411d594616571b01a4b5ffd13f20352542b9745f"
+  },
+  "feature_names": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "bid_price1",
+    "ask_price1",
+    "bid_price2",
+    "ask_price2",
+    "bid_price3",
+    "ask_price3",
+    "volume",
+    "amount",
+    "bid_volume1",
+    "ask_volume1",
+    "bid_volume2",
+    "ask_volume2",
+    "bid_volume3",
+    "ask_volume3",
+    "deal_number",
+    "bid_num_orders1",
+    "ask_num_orders1",
+    "bid_num_orders2",
+    "ask_num_orders2",
+    "bid_num_orders3",
+    "ask_num_orders3"
+  ],
+  "note": "Metadata of the original archived checkpoint. Training data and weights are not distributed."
+}

@@ -1,0 +1,31 @@
+{
+  "competition": {
+    "rank": 10,
+    "participants": 57,
+    "public_score": 0.84,
+    "private_score": 0.71,
+    "source": "Participant-provided final result; not derived from the retrospective chart",
+    "submitted_model": "v12_rerun"
+  },
+  "retrospective": {
+    "description": "Reconstructed 1m labels, no BARRA, stress proxy; not official leaderboard metrics",
+    "public": {
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "ic_ir": 1.736341745628592,
+      "ic_mean": 0.1325672967865604,
+      "turnover": 0.4523650390366252,
+      "sharpe_ratio": 55.3156069787528,
+      "stress_stability": 1.5496951550492757
+    },
+    "private": {
+      "start": "2025-11-01",
+      "end": "2026-10-31",
+      "ic_ir": 1.3074337034062877,
+      "ic_mean": 0.11612038752596063,
+      "turnover": 0.44989539992217015,
+      "sharpe_ratio": 39.489700917162985,
+      "stress_stability": 1.0976479751280008
+    }
+  }
+}

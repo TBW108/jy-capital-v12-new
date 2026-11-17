@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-18",
+  "environment": {
+    "python": "3.11",
+    "torch": "2.8.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "pyarrow": "25.0.0"
+  },
+  "checks": {
+    "synthetic_unittests_passed": 2,
+    "original_seed_checkpoints_loaded": 5,
+    "parameters_per_seed": 244810,
+    "unchanged_core_functions_and_classes": 34,
+    "chart_byte_identical": true
+  },
+  "scope": "CPU synthetic checks plus original checkpoint compatibility. Full training was not repeated. Real competition data and weights are excluded."
+}
